@@ -1,0 +1,1 @@
+i used screensize of 1366 x 768 , you could adjust the height but leave the width as it is.

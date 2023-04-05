@@ -56,7 +56,7 @@ while True:
 
 
 
-    
+    #change the  number after the < sign to  reduce or increase how soon it jumps
         if char:
             
             if obs:
@@ -64,6 +64,7 @@ while True:
                 if len(obs)> 1:
                     obs =  sorted(obs,key=lambda x:x[0], reverse=False)
                     obs =  object_position(obs[0])
+                    #this gives the signal on when to jump at the instance of  the shrub
                     if ( obs.x - char.x1) < 105 :
                         pyautogui.press("space")
                         print("jump")
@@ -74,7 +75,9 @@ while True:
                         pyautogui.press("space")
                         print("jump!!")
             elif raptor:
+            #this gives the signal on when to jump at the instance of  the flying raptor
                 print("raptor found")
+
                 if ( raptor.x - char.x1) < 115 :
                         pyautogui.press("space")
                         
