@@ -6,7 +6,7 @@ import pyautogui
 import numpy as np
 
 '''
-    JUST A  HEADS UP, THERE IS ZERO ARTIFICIAL INTELIGENCE IN WHAT I WROTE       o_-
+    AS AT THE TIME OF WRITING THIS CODE I RAN THE PROGRAM ON A LINUX PC       o_-
 '''
 
 '''
